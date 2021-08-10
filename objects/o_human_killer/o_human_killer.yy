@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "s_npc1",
-    "path": "sprites/s_npc1/s_npc1.yy",
+    "name": "s_destroy_wall",
+    "path": "sprites/s_destroy_wall/s_destroy_wall.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,11 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_human_killer","path":"objects/o_human_killer/o_human_killer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -32,7 +28,7 @@
     "path": "folders/Objects/humans.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_human1",
+  "name": "o_human_killer",
   "tags": [],
   "resourceType": "GMObject",
 }

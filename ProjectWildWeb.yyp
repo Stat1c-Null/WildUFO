@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"o_human_killer","path":"objects/o_human_killer/o_human_killer.yy",},"order":3,},
     {"id":{"name":"s_npc1","path":"sprites/s_npc1/s_npc1.yy",},"order":1,},
     {"id":{"name":"s_city","path":"sprites/s_city/s_city.yy",},"order":1,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},
@@ -7,10 +8,11 @@
     {"id":{"name":"s_background","path":"sprites/s_background/s_background.yy",},"order":2,},
     {"id":{"name":"o_human2","path":"objects/o_human2/o_human2.yy",},"order":2,},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},"order":0,},
+    {"id":{"name":"s_destroy_wall","path":"sprites/s_destroy_wall/s_destroy_wall.yy",},"order":3,},
     {"id":{"name":"s_npc2","path":"sprites/s_npc2/s_npc2.yy",},"order":2,},
     {"id":{"name":"o_humans_parent","path":"objects/o_humans_parent/o_humans_parent.yy",},"order":0,},
     {"id":{"name":"o_human1","path":"objects/o_human1/o_human1.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"r_level","path":"rooms/r_level/r_level.yy",},"order":0,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -27,7 +29,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"r_level","path":"rooms/r_level/r_level.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
