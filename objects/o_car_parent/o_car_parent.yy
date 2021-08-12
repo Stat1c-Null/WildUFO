@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "humans",
-    "path": "folders/Objects/humans.yy",
+    "name": "cars",
+    "path": "folders/Objects/cars.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_humans_parent",
+  "name": "o_car_parent",
   "tags": [],
   "resourceType": "GMObject",
 }

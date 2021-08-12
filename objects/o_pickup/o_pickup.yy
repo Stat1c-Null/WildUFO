@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_pickup",
+    "path": "sprites/s_pickup/s_pickup.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,15 +23,16 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_car_destroyer","path":"objects/o_car_destroyer/o_car_destroyer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "humans",
-    "path": "folders/Objects/humans.yy",
+    "name": "cars",
+    "path": "folders/Objects/cars.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_humans_parent",
+  "name": "o_pickup",
   "tags": [],
   "resourceType": "GMObject",
 }
