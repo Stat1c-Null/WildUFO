@@ -11,5 +11,5 @@ if(instance_exists(o_player)){
 	draw_sprite_part_ext(s_overheat, 1, 0, 0, global.overheat, 38, 670, 55, 1, 1, c_white, 1)
 	//Score
 	draw_text_color(420, 20, "SCORE", c_yellow, c_yellow, c_orange, c_orange, 1)
-	draw_text_color(460, 55, string(score_points), c_yellow, c_yellow, c_orange, c_orange, 1)
+	draw_text_color(460, 55, string(global.score_points), c_yellow, c_yellow, c_orange, c_orange, 1)
 }

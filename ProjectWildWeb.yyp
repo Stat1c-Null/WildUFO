@@ -1,6 +1,5 @@
 {
   "resources": [
-    {"id":{"name":"o_human_killer","path":"objects/o_human_killer/o_human_killer.yy",},"order":3,},
     {"id":{"name":"o_pickup","path":"objects/o_pickup/o_pickup.yy",},"order":1,},
     {"id":{"name":"s_npc1","path":"sprites/s_npc1/s_npc1.yy",},"order":1,},
     {"id":{"name":"s_city","path":"sprites/s_city/s_city.yy",},"order":1,},
@@ -9,6 +8,7 @@
     {"id":{"name":"o_sedan","path":"objects/o_sedan/o_sedan.yy",},"order":2,},
     {"id":{"name":"t_city","path":"tilesets/t_city/t_city.yy",},"order":0,},
     {"id":{"name":"o_hud","path":"objects/o_hud/o_hud.yy",},"order":6,},
+    {"id":{"name":"sh_white_flash","path":"shaders/sh_white_flash/sh_white_flash.yy",},"order":0,},
     {"id":{"name":"s_background","path":"sprites/s_background/s_background.yy",},"order":2,},
     {"id":{"name":"o_human2","path":"objects/o_human2/o_human2.yy",},"order":2,},
     {"id":{"name":"s_wrecked_cabriolet","path":"sprites/s_wrecked_cabriolet/s_wrecked_cabriolet.yy",},"order":1,},
@@ -21,7 +21,6 @@
     {"id":{"name":"s_sedan","path":"sprites/s_sedan/s_sedan.yy",},"order":0,},
     {"id":{"name":"o_car_parent","path":"objects/o_car_parent/o_car_parent.yy",},"order":0,},
     {"id":{"name":"o_van","path":"objects/o_van/o_van.yy",},"order":5,},
-    {"id":{"name":"o_car_destroyer","path":"objects/o_car_destroyer/o_car_destroyer.yy",},"order":6,},
     {"id":{"name":"s_energy","path":"sprites/s_energy/s_energy.yy",},"order":0,},
     {"id":{"name":"s_destroy_wall","path":"sprites/s_destroy_wall/s_destroy_wall.yy",},"order":3,},
     {"id":{"name":"f_text","path":"fonts/f_text/f_text.yy",},"order":0,},

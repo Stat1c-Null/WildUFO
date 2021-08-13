@@ -1,1 +1,1 @@
-score_points = 0
+global.score_points = 0
