@@ -1,0 +1,7 @@
+draw_set_font(f_text3)
+draw_text_color(40, 510, "Blue Player", c_aqua, c_aqua, c_blue, c_blue, 1)
+draw_text_color(250, 510, "Red Player", c_red, c_red, c_maroon, c_maroon, 1)
+draw_text_color(40, 550, "WASD MOVE", c_aqua, c_aqua, c_blue, c_blue, 1)
+draw_text_color(250, 550, "ARROW KEYS MOVE", c_red, c_red, c_maroon, c_maroon, 1)
+draw_text_color(40, 590, "F TO USE HOLO", c_aqua, c_aqua, c_blue, c_blue, 1)
+draw_text_color(250, 590, "L TO USE HOLO", c_red, c_red, c_maroon, c_maroon, 1)

@@ -9,4 +9,5 @@ human_speed = 1.5
 hp = 7
 flash = 0
 dead = false
+dead2 = false
 flyspeed = 2.5

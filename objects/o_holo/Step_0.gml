@@ -1,8 +1,8 @@
 x = o_player.x 
 y = o_player.y + 30
-onKey = keyboard_check(ord("F")) or keyboard_check(ord("K"))
+onKey = keyboard_check(ord("F"))
 if(not onKey){
-	global.overheat -= 0.6	
+	global.overheat -= 0.9
 	holoOn = false
 } else if(onKey and global.overheat != global.overheat_max) {
 	global.overheat += 0.7	

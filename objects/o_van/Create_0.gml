@@ -10,3 +10,4 @@ hp = 10
 flash = 0
 dead = false
 flyspeed = 2.5
+dead2 = false

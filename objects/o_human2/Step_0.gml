@@ -15,3 +15,10 @@ if(dead == true){
 		instance_destroy()	
 	}
 }
+if(dead2 == true){
+	move_towards_point(o_player2.x, o_player2.y, flyspeed)
+	if(instance_place(x, y,o_player2)) {
+		global.energy2 += 15
+		instance_destroy()	
+	}
+}

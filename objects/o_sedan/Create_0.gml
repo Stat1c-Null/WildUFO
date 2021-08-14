@@ -8,5 +8,6 @@ if(x == 920) {
 human_speed = global.car_speed
 hp = 10
 flash = 0
-flyspeed = 2.5
+flyspeed = 3.5
 dead = false
+dead2 = false

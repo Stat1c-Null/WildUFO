@@ -1,5 +1,5 @@
-onKey = keyboard_check(ord("F")) or keyboard_check(ord("K"))
+onKey = keyboard_check(ord("F"))
 if (onKey and global.overheat < global.overheat_max and global.energy > 0){
 	draw_self()
-	global.energy -= 0.1
+	global.energy -= 0.05
 }
