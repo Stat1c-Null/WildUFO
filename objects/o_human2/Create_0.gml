@@ -6,7 +6,8 @@ if(x == 920) {
 	dir = 1
 }
 human_speed = 1.5
-hp = 7
+hp = 6
+maxHp = 6
 flash = 0
 dead = false
 dead2 = false

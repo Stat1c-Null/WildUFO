@@ -7,6 +7,7 @@ if(x == 920) {
 }
 human_speed = 1.5
 hp = 6
+maxHp = 6
 flash = 0
 dead = false
 dead2 = false

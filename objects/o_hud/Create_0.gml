@@ -4,3 +4,6 @@ global.two_player_mode = false
 if(!audio_is_playing(snd_music)){
 	audio_play_sound(snd_music, 1, false)
 }
+singleplayer = false
+player1 = false
+player2 = false

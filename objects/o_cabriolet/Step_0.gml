@@ -1,8 +1,10 @@
 image_xscale = scale
-if(dead == false) {
+if(hp == maxHp) {
 	x += human_speed * dir
+} else {
+	x += human_speed * 1.4 * dir
+	
 }
-
 //Destroy objects when they are outside the room
 if (bbox_right < 0 || bbox_left > room_width || bbox_bottom < 0 || bbox_top > room_height)
 {

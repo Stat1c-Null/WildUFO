@@ -8,17 +8,19 @@ if(global.energy > 0){
 }
 
 if (global.energy > 0) {
-	global.energy -= 0.08
+	global.energy -= 0.04
 }
 if(global.energy > global.energy_max){
 	global.energy = global.energy_max	
 }
 
+//GameOver
+
 if(global.energy <= 0 and global.two_player_mode == false) {
-	instance_create_layer(x,y, "Instances", o_gameover)
+	instance_create_layer(x,y,"Humans", o_gameover)
 	o_gameover.singleplayer = true
 	
 } else if(global.energy <= 0 and global.two_player_mode == true){
-	instance_create_layer(x,y, "Instances", o_gameover)
+	instance_create_layer(x,y,"Humans", o_gameover)
 	o_gameover.player1 = true
 }
