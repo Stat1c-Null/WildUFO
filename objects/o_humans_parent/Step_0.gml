@@ -2,7 +2,12 @@ spawn_delay1 -= random_range(0.1, 1)
 spawn_delay2 -= random_range(0.1, 1)
 spawn_delay3 -= random_range(0.1, 1)
 spawn_delay4 -= random_range(0.1, 1)
-spawn_delay5 -= random_range(0.1, 1)
+
+if(alarm[0] > 0) {
+	spawn_delay5 -= random_range(0.1, 1)
+} else if(alarm[0] < 0) {
+	spawn_delay5 -= random_range(0.5, 1.2)
+}
 if(spawn_delay1 <= 0) {//TOP RIGHT
 	var gender1 = choose(1,2)
 	if(gender1 == 1) {

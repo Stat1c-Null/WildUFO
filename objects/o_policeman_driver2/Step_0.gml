@@ -1,18 +1,8 @@
-image_xscale = scale
-stop -= random_range(1, 1.2)
-if(stop > 0) {
-	x += human_speed * dir	
-} else {
-	human_speed = 0
-	sprite_index = s_policeman_shooting
-	shoot = true
-}
+image_speed = 1
+
 
 //Shooting
-
-firingdelay -= 1
-if shoot == true and firingdelay < 0{
-	firingdelay = 10
+if alarm[0] <= 0 {
 	with(instance_create_layer(x,y,"Bullets", o_bullet))
 	{
 		speed = 15
@@ -21,9 +11,13 @@ if shoot == true and firingdelay < 0{
 	}
 }
 
-if(shoot == true and o_player.x > 460) {
+if alarm[0] <= 0 {
+	alarm[0] = timer6	
+}
+
+if(o_player.x > 460) {
 	image_xscale = 1	
-} else if(shoot == true and o_player.x < 460) {
+} else if(o_player.x < 460) {
 	image_xscale = -1	
 }
 
