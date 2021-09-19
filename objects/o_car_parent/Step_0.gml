@@ -33,3 +33,5 @@ if(spawn_delay2 <= 0) {//RIGHT SIDE
 	}
 	spawn_delay2 = timer1
 }
+
+

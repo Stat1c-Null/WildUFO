@@ -8,7 +8,7 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 10,
-  "bbox_right": 43,
+  "bbox_right": 31,
   "bbox_top": 18,
   "bbox_bottom": 61,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"68513cde-06ae-4e47-9b6a-60a84c7b70de","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"68513cde-06ae-4e47-9b6a-60a84c7b70de","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"LayerId":{"name":"00e528c2-88c7-4244-aa8b-4c144406b23c","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_policeman_shooting","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","name":"68513cde-06ae-4e47-9b6a-60a84c7b70de","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"b8aed75c-caf8-4418-a042-20d198b47317","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b8aed75c-caf8-4418-a042-20d198b47317","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"LayerId":{"name":"00e528c2-88c7-4244-aa8b-4c144406b23c","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_policeman_shooting","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","name":"b8aed75c-caf8-4418-a042-20d198b47317","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1bf35c39-abfc-4421-ad59-b00bc1997f40","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1bf35c39-abfc-4421-ad59-b00bc1997f40","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"LayerId":{"name":"d64dbcbc-ed2a-4877-935c-ce1e9a0abfe5","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_policeman_shooting","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","name":"1bf35c39-abfc-4421-ad59-b00bc1997f40","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7a8017ab-6bc6-4a54-a495-6c98934d09ab","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7a8017ab-6bc6-4a54-a495-6c98934d09ab","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"LayerId":{"name":"d64dbcbc-ed2a-4877-935c-ce1e9a0abfe5","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_policeman_shooting","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","name":"7a8017ab-6bc6-4a54-a495-6c98934d09ab","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_policeman_shooting","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b4a049c6-e869-4054-a4e0-8e61eaed400b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"68513cde-06ae-4e47-9b6a-60a84c7b70de","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"aeb03eae-cfd3-4e72-94fa-2799df783cab","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8aed75c-caf8-4418-a042-20d198b47317","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"65a82458-6180-4de5-82b8-dab352dcd65e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1bf35c39-abfc-4421-ad59-b00bc1997f40","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3a6d5317-b806-4765-a1cb-8527a84fb477","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a8017ab-6bc6-4a54-a495-6c98934d09ab","path":"sprites/s_policeman_shooting/s_policeman_shooting.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -69,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"00e528c2-88c7-4244-aa8b-4c144406b23c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d64dbcbc-ed2a-4877-935c-ce1e9a0abfe5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

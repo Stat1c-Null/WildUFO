@@ -15,5 +15,3 @@ flyspeed = 2.5
 room_speed = 60
 stop_timer = room_speed * random_range(1, 5)
 stop = stop_timer
-shoot = false
-firingdelay = 0
