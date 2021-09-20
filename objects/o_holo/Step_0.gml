@@ -1,6 +1,6 @@
 x = o_player.x 
 y = o_player.y + 30
-onKey = keyboard_check(ord("B"))
+onKey = keyboard_check(vk_space)
 if(not onKey){
 	global.overheat -= 0.9
 	holoOn = false
